@@ -1,0 +1,90 @@
+
+body { font-size: .09 em;color: white;
+	background-image: url(imagenes/wg_dark_background3.jpg);}
+
+
+
+	 #hdr{
+
+		height: 38px;
+		width:100%;
+		border-top-width: 10px;
+		border-right-width: 1em;
+		border-bottom-width: thick;
+		border-left-width: thin;
+		background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
+		}
+	
+	ul#menu {
+			font-family: Arial;
+			color: red;
+			list-style: none;
+			}
+
+	ul#menu li{
+			float: left;
+
+	     	  }
+	 
+	ul#menu li a {
+		height: 38px;
+		padding: 0.5em;
+		display: block;
+		text-decoration:none;
+		font-family: Arial;
+		color: blue;
+
+.tDescargas{
+	width: 250 px;
+	border:1px solid #000;
+	}
+
+.tDescargas th .tDescargas td{
+	border:1px solid #000;
+	}
+
+	#form{	
+     border-radius: 25px;
+	 border: 2px solid #CCC;
+	 padding: 1em;
+	 margin: 1em 0 1em 4em;
+	 width: 200px;
+	 background-image:url(imagenes/wg-deep-dark-textures4.jpg); 
+	 font-family: Arial; font-color:blue;	}
+
+
+*{
+	border-bottom: 0.5px;
+	background-image: url(imagenes/BackgroundAlt1.jpg);
+}
+#ftr{
+	height: 20%;
+	width: 100%;
+}
+
+#footer{
+	height: 50px;
+	width: 968;
+	
+}
+
+
+
+p {color :black;}
+p span {color: purple;}
+div p{color: teal}
+div > p {color: orange;}
+
+h1 {color: rgb(27%, 38%, 69%);}
+
+h2{color:#2712B0;}
+
+h3 {color: green;}
